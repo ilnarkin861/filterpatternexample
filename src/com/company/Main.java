@@ -1,7 +1,6 @@
 package com.company;
 
 import com.company.filters.*;
-import com.company.filters.Filterable;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -23,7 +22,6 @@ public class Main {
 
         // Predicate
         people.stream().filter(i->i.getGender()==Gender.MALE).forEach(i-> System.out.println(i));
-
 
 
     }
